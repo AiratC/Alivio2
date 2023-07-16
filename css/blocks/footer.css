@@ -1,0 +1,50 @@
+.footer {
+    padding: 104px 0 144px;
+    background: #245852;
+}
+
+.column {
+}
+
+.footer-logo {
+    margin-bottom: 74px;
+}
+
+.footer-list li + li{
+    padding-top: 60px;
+}
+
+.footer-list-item {
+
+}
+
+.footer-list-link {
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@media (max-width: 1106px) {
+    .product-card {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .footer {
+        padding: 25px 0 20px;
+    }
+
+    .footer-logo {
+        margin-bottom: 34px;
+    }
+
+    .footer-list li + li{
+        padding-top: 25px;
+    }
+
+
+}

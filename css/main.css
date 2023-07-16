@@ -1,0 +1,48 @@
+@import url('reset.css');
+@import url('./blocks/home.css');
+@import url('./blocks/works.css');
+@import url('./blocks/header.css');
+@import url('./blocks/story.css');
+@import url('./blocks/product.css');
+@import url('./blocks/footer.css');
+@import url('./blocks/burger-menu.css');
+@import url('./blocks/mobile-nav.css');
+
+
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.no-scrole {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container-wide {
+    max-width: 1536px;
+}
+
+.menu-icon-wrapper {
+    display: none;
+}
+
+@media (max-width: 1399px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1535px) {
+    .container-wide {
+        width: 100%;
+    }
+}
